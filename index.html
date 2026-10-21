@@ -1,0 +1,584 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>曲から動画 面談の議事録</title>
+<meta name="description" content="2026年10月21日の面談の議事録。マリアさんが今やることを、パソコン選びとセッティングを中心にステップごとにまとめました。">
+<meta property="og:type" content="website"><meta property="og:title" content="曲から動画 面談の議事録"><meta property="og:description" content="マリアさんが今やることを、パソコン選びとセッティングを中心にステップごとにまとめました。">
+<meta property="og:url" content="https://yukitchy.github.io/kyoku-douga-gijiroku/"><meta property="og:image" content="https://yukitchy.github.io/kyoku-douga-gijiroku/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image"><meta name="robots" content="noindex">
+<link rel="icon" href="favicon.png"><link rel="apple-touch-icon" href="favicon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap">
+<style>
+:root{--bg:#FBF8F4;--ink:#1F1B18;--sub:#5F5851;--line:#E6DFD6;--card:#fff;--acc:#C93F2E;--accbg:#FDECE8;--ok:#1F6B4A;--okbg:#E6F3EC;--warn:#8A5A00;--warnbg:#FFF3D6}
+@media (prefers-color-scheme:dark){:root{--bg:#161412;--ink:#F3EEE8;--sub:#B8AFA5;--line:#352F2A;--card:#201C19;--acc:#FF7A6A;--accbg:#3A211D;--ok:#7FD1A6;--okbg:#17302A;--warn:#F0C36A;--warnbg:#38300F}}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Noto Sans JP',sans-serif;line-height:1.85;font-size:16px;padding:0 16px 64px}
+main{max-width:760px;margin:0 auto}
+header{padding:40px 0 8px}
+.meta{font-size:13px;color:var(--sub)}
+h1{font-size:32px;line-height:1.35;font-weight:900;margin:8px 0 12px}
+h2{font-size:22px;font-weight:900;margin:56px 0 14px;padding-top:8px;border-top:3px solid var(--ink)}
+h3{font-size:18px;font-weight:700;margin:0 0 6px}
+p{margin:0 0 12px}
+a{color:var(--acc)}
+.lead{font-size:17px}
+.btn{display:block;text-align:center;background:var(--acc);color:#fff!important;font-weight:900;font-size:18px;text-decoration:none;padding:16px 18px;border-radius:14px;margin:18px 0 8px}
+.btn small{display:block;font-weight:500;font-size:13px;opacity:.92}
+.tk{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:16px 0}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 0}
+.toc a{font-size:14px;text-decoration:none;border:1px solid var(--line);background:var(--card);padding:6px 12px;border-radius:99px;color:var(--ink)}
+.step{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 18px;margin:16px 0}
+.step .no{display:inline-block;background:var(--acc);color:#fff;font-weight:900;font-size:13px;letter-spacing:.08em;padding:2px 10px;border-radius:99px;margin-bottom:6px}
+.step.big{border:2px solid var(--acc)}
+.tag{display:inline-block;font-size:12px;font-weight:700;padding:1px 8px;border-radius:6px;margin-right:6px;vertical-align:1px}
+.said{background:var(--okbg);color:var(--ok)} .added{background:var(--warnbg);color:var(--warn)}
+ul,ol{padding-left:1.4em;margin:0 0 12px} li{margin:4px 0}
+.cards{display:grid;gap:12px;margin:14px 0}
+.pc{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.pc.rec{border:2px solid var(--acc)}
+.pc .k{font-size:13px;font-weight:700;color:var(--acc)}
+.pc .price{font-size:26px;font-weight:900}
+.pc .price small{font-size:13px;font-weight:500;color:var(--sub)}
+.pc dl{display:grid;grid-template-columns:5.5em 1fr;gap:2px 10px;font-size:14px;margin:8px 0}
+.pc dt{color:var(--sub)}
+.note{background:var(--warnbg);color:var(--ink);border-left:4px solid var(--warn);padding:10px 14px;border-radius:6px;font-size:14px;margin:12px 0}
+.src{font-size:13px;color:var(--sub)}
+table{border-collapse:collapse;width:100%;font-size:14px;margin:10px 0}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--card)}
+.shot{position:relative;display:block;max-width:340px;margin:6px 0}
+.shot img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:8px}
+.badge{position:absolute;width:26px;height:26px;border-radius:50%;background:var(--acc);color:#fff;font-weight:900;font-size:14px;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 3px #fff}
+.ring{position:absolute;border:3px solid var(--acc);border-radius:8px}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:12px 0}
+summary{cursor:pointer;font-weight:700}
+.u{font-size:14.5px;margin:10px 0}.u b{display:inline-block;min-width:5.5em;margin-right:6px;color:var(--sub)}
+.u.m b{color:var(--acc)}
+footer{margin-top:56px;font-size:13px;color:var(--sub)}
+.words{display:grid;gap:12px;margin:14px 0}
+.w{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:grid;grid-template-columns:76px 1fr;gap:4px 14px;align-items:start}
+.w svg{width:76px;height:76px;grid-row:span 2}
+.w .t{font-size:13px;font-weight:700;color:var(--acc);align-self:end}
+.w h3{align-self:start}
+.w h3{margin:0 0 4px}
+.w p{grid-column:1/-1;margin:6px 0 0}
+.w .now{grid-column:1/-1;font-size:14px;background:var(--accbg);border-radius:8px;padding:8px 12px;margin-top:6px}
+.bench{display:grid;gap:12px;margin:14px 0}
+.bn{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+.bn h3{font-size:16px}
+.top{border:3px solid var(--ink);border-radius:8px;padding:8px;display:flex;flex-wrap:wrap;gap:6px;min-height:92px;background:var(--bg)}
+.top.s{max-width:62%}
+.dish{font-size:13px;font-weight:700;background:var(--accbg);color:var(--acc);border-radius:99px;padding:4px 12px}
+.out{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap;font-size:13px;color:var(--sub);align-items:center}
+.out .dish{background:transparent;border:2px dashed var(--sub);color:var(--sub)}
+.ic{stroke:var(--ink);fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.ic .f{fill:var(--accbg)}.ic .a{stroke:var(--acc)}
+.step{position:relative}
+.step .ico{position:absolute;right:14px;top:14px;width:46px;height:46px}
+.step h3{padding-right:54px}
+.pc{position:relative}.pc .ico{position:absolute;right:12px;top:12px;width:42px;height:42px}
+.pc .k{padding-right:50px;display:block}
+.mgrid{display:grid;gap:12px;margin:12px 0 22px}
+.mc{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 16px 14px}
+.mc .ico{width:48px;height:48px;float:left;margin:0 12px 4px 0}
+.mc .tg{font-size:12px;font-weight:700;color:var(--acc);display:block}
+.mc h4{font-size:17px;line-height:1.4;font-weight:900;margin:0 0 6px}
+.mc p{clear:both;font-size:14px;margin:6px 0 10px}
+.mc .yen{display:flex;align-items:baseline;gap:6px;border-top:1px dashed var(--line);padding-top:10px;flex-wrap:wrap}
+.mc .yen b{font-size:28px;font-weight:900;line-height:1}
+.mc .yen span{font-size:13px;color:var(--sub)}
+.mc.off{border:2px solid var(--acc)}
+.sechead{display:flex;align-items:center;gap:10px;margin:22px 0 4px}
+.sechead svg{width:34px;height:34px;flex:none}.sechead h3{margin:0}
+.pk{display:grid;grid-template-columns:44px 1fr;gap:2px 12px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:10px 0;align-items:center}
+.pk svg{width:44px;height:44px;grid-row:span 2}
+.pk .lim{font-size:13px;font-weight:700;color:var(--acc);align-self:end}
+.pk .nm{font-size:16px;font-weight:900;line-height:1.4;align-self:start}
+.pk p{grid-column:1/-1;font-size:14px;margin:6px 0 0}
+.hero{display:block;width:100%;max-width:340px;margin:16px 0 4px}
+@media (min-width:700px){.mgrid.three{grid-template-columns:repeat(3,1fr)}}
+@media (min-width:700px){.words{grid-template-columns:1fr 1fr}.bench{grid-template-columns:1fr 1fr}}
+@media (min-width:700px){.cards{grid-template-columns:repeat(3,1fr)}}
+</style></head><body><main>
+<header>
+<p class="meta">2026年10月21日 12時から約30分 ／ Google Meet ／ ユウキ・マリアさん・ゆみパン先生</p>
+<h1>曲から動画 面談の議事録</h1>
+<p class="lead">マリアさんが自分で動画を作れるようになるまでの道を、今日からの順番に並べました。いちばん厚く書いたのは、パソコン選びと、買った日の設定です。</p>
+<svg class="hero ic" viewBox="0 0 340 150" aria-hidden="true"><path d="M8 118c40-30 74 20 120-8s58-60 106-44 60 6 98-18" class="a"/><rect class="f" x="96" y="26" width="148" height="92" rx="8"/><path d="M78 128h184l-12-10H90z"/><path class="a" d="M150 52l40 22-40 22z"/><path d="M40 70V38l30-7v30"/><circle class="f" cx="33" cy="72" r="8"/><circle class="f" cx="63" cy="64" r="8"/><path class="a" d="M276 30v16M268 38h16M300 62v10M295 67h10"/></svg>
+<a class="btn" href="bunko.html">読み物版（要約・マーカー）を読む<small>面談の中身を読みやすく編集したものです。約6分</small></a>
+<nav class="toc"><a href="#today">今日決まったこと</a><a href="#steps">今やること</a><a href="#irai">頼む場合のメニュー</a><a href="#words">用語のたとえ</a><a href="#pc">パソコン選び</a><a href="#setup">買った日の設定</a><a href="#talk">面談で話した内容</a><a href="#text">文字起こし</a></nav>
+</header>
+
+<h2 id="today">今日決まったこと</h2>
+<ul>
+<li>つくりたいのは、自作曲に付ける動画の第1作目。参考は、龍が滑らかに駆け回るTikTok。イメージは和風の白い龍。</li>
+<li>ツールは、画像と動画づくりに Dreamina、プロンプトの下書きと相談に Claude。参考動画は「何を連想するか」を言葉にしてもらうところから始める。</li>
+<li>動画づくりはスマホだけでは難しいので、スマホの買い替えより先にパソコンを用意する。</li>
+<li>まず自分で1回やってみる。詰まったら相談する。</li>
+<li>ユウキから、パソコンの条件に合う候補と買い方のまとめを共有する（このページのパソコン選びの章が、その最初の版）。</li>
+</ul>
+
+<h2 id="steps">マリアさんが今やること</h2>
+<p>面談で話した内容と、そのあとに調べた情報を、ステップにして並べました。<span class="tag said">面談で話した</span>は今日の会話で出た内容、<span class="tag added">調べて追加</span>は面談後に公式ページなどで確かめた内容です。</p>
+
+<div class="step"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><rect class="f" x="6" y="14" width="36" height="24" rx="4"/><path d="M6 21h36"/><circle class="a" cx="34" cy="30" r="2.5"/></svg><span class="no">STEP 1</span><h3>予算の上限を決める</h3><p><span class="tag said">面談で話した</span>パソコンは先に買う。Macは高く、Windowsは安いものもある、という話でした。まず「いくらまでなら出せるか」を1つ決めると、次のステップがすぐ終わります。</p></div>
+<div class="step big"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><rect class="f" x="11" y="11" width="26" height="19" rx="2"/><path d="M5 36h38l-3-6H8z"/><path class="a" d="M19 20h10"/></svg><span class="no">STEP 2</span><h3>パソコンを3台から選ぶ</h3><p><span class="tag added">調べて追加</span>先に「パソコンの用語を、台所でたとえると」の章でスペック表の読み方をつかみ、そのあと「パソコン選び」の章で、秋葉原のPCコンフルの今週の特価品から、メモリ16GBの3台を載せました。予算の上限から選べます。</p></div>
+<div class="step big"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><circle class="f" cx="21" cy="21" r="12"/><path d="M30 30l11 11"/><path class="a" d="M15.5 21l4 4 7-8"/></svg><span class="no">STEP 3</span><h3>買う前に確かめる</h3><p><span class="tag added">調べて追加</span>中古を選ぶ場合の確認点を、同じ章にまとめました。</p></div>
+<div class="step big"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><circle class="f" cx="24" cy="24" r="10"/><circle class="a" cx="24" cy="24" r="4"/><path d="M24 6v6M24 36v6M6 24h6M36 24h6M11 11l4 4M33 33l4 4M37 11l-4 4M15 33l-4 4"/></svg><span class="no">STEP 4</span><h3>買った日に設定する</h3><p><span class="tag added">調べて追加</span>アカウントとアプリを6つの順番で用意し、最後に5秒の動画を1本書き出します。「買った日の設定」の章です。</p></div>
+<div class="step"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><path class="f" d="M8 9h32v23H21l-9 8v-8H8z"/><path class="a" d="M15 17h18M15 24h11"/></svg><span class="no">STEP 5</span><h3>参考のTikTokをClaudeに言葉にしてもらう</h3>
+<p><span class="tag said">面談で話した</span>参考動画のリンクをClaudeに渡して、次のように頼みます。</p>
+<ul><li>この動画のイメージを言葉にして。何を連想するか、並べて。</li><li>このような動画を、白い龍で作りたい。そのためのプロンプトを書いて。</li></ul>
+<p>出てきた説明の中に、連想した作品名（面談ではハウルの動く城、ロード・オブ・ザ・リング）が入っていたら、動画の方向が決めやすくなります。参考のTikTokは「言葉にする材料」として使い、映像そのものは投稿しません。</p></div>
+<div class="step"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><rect class="f" x="7" y="9" width="34" height="30" rx="4"/><path d="M7 33l11-11 8 8 6-6 9 9"/><circle class="a" cx="32" cy="18" r="3.2"/></svg><span class="no">STEP 6</span><h3>Dreaminaで白い龍の絵を作り、動かす</h3>
+<p><span class="tag said">面談で話した</span>ステップ5で出たプロンプトをDreaminaに入れます。1枚目は画像で作り、その絵を動かして5秒ほどの動画にします。気に入らなければ言葉を直して、少しずつ形にしていきます。Dreaminaには無料で使える枠があります（公式FAQ。数字は変わるので画面で確認）。</p></div>
+<div class="step"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><path class="f" d="M18 33V11l21-4v22"/><circle class="f" cx="13" cy="34" r="5"/><circle class="f" cx="34" cy="30" r="5"/></svg><span class="no">STEP 7</span><h3>曲を乗せて、書き出して、投稿する</h3>
+<p><span class="tag added">調べて追加</span>面談では編集アプリの話は出ていません。CapCutなら、Dreaminaと同じ運営で、無料で始められます。曲の20秒前後に合わせて動画をつなぎ、書き出して、YouTubeとTikTokに載せます。<br>曲を収益化する予定があれば、Dreaminaの利用規約（商用利用）を登録したあとに読んでおくと安心です。</p></div>
+<div class="step"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><circle class="f" cx="24" cy="16" r="8"/><path class="f" d="M8 41c0-9 7-13 16-13s16 4 16 13z"/><path class="a" d="M33 8h8v7h-4l-3 3v-3h-1z"/></svg><span class="no">STEP 8</span><h3>詰まったら相談する</h3>
+<p><span class="tag said">面談で話した</span>1回やってみて、できなかったところを相談します。オンラインのレッスンと、パソコンを買いに行く手伝いは、「ユウキに頼む場合のメニュー」の章にまとめました。</p></div>
+
+<h2 id="irai">ユウキに頼む場合のメニュー</h2>
+<p><span class="tag said">面談で話した</span>続けて相談したいとき、オンラインのレッスン、代行、パソコンを買いに行く手伝いを用意する、という話でした。内容と金額をまとめます。</p>
+<div class="sechead"><svg class=" ic" viewBox="0 0 48 48" aria-hidden="true"><rect class="f" x="11" y="11" width="26" height="19" rx="2"/><path d="M5 36h38l-3-6H8z"/><path class="a" d="M19 20h10"/></svg><h3>オンライン</h3></div>
+<div class="mgrid three">
+<div class="mc"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><circle class="f" cx="24" cy="16" r="8"/><path class="f" d="M8 41c0-9 7-13 16-13s16 4 16 13z"/><path class="a" d="M33 8h8v7h-4l-3 3v-3h-1z"/></svg><span class="tg">60分</span><h4>オンラインレッスン</h4><p>この議事録のステップを、画面を見ながら一緒に進めます。1回ごとに宿題を決めます。</p><div class="yen"><b>5,000円</b><span>1回</span></div></div>
+<div class="mc"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><rect class="f" x="5" y="9" width="26" height="19" rx="3"/><rect class="f" x="17" y="20" width="26" height="19" rx="3"/><path class="a" d="M26 29h9M30.5 25v9"/></svg><span class="tg">60分 × 2回</span><h4>1本目を一緒に作る</h4><p>白い龍の1本目を、Claudeでプロンプトを作るところから書き出しまで、2回で作ります。2本目からは自分で作れる状態を目指します。</p><div class="yen"><b>10,000円</b><span>2回（5,000円×2）</span></div></div>
+<div class="mc"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><path class="f" d="M18 33V11l21-4v22"/><circle class="f" cx="13" cy="34" r="5"/><circle class="f" cx="34" cy="30" r="5"/></svg><span class="tg">1曲ごと</span><h4>動画づくりの代行</h4><p>曲を預かって、動画をこちらで作って渡します。</p><div class="yen"><span>曲数や内容を聞いて、個別にお伝えします</span></div></div>
+</div>
+<div class="sechead"><svg class=" ic" viewBox="0 0 48 48" aria-hidden="true"><path class="f" d="M8 21h32v19H8z"/><path class="f" d="M6 21l4-11h28l4 11z"/><path class="a" d="M20 40V29h8v11"/></svg><h3>オフライン（対面）</h3></div>
+<div class="mgrid">
+<div class="mc off"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><rect class="f" x="7" y="10" width="34" height="30" rx="4"/><path d="M7 19h34M16 6v8M32 6v8"/><path class="a" d="M16 27h6M26 27h6M16 33h6"/></svg><span class="tg">昼過ぎの13時〜16時ごろ（約3時間）</span><h4>パソコンの購入補助と、その後のセットアップ</h4><p>秋葉原のPCコンフルなどの店で、実物の画面とキーボードを一緒に確かめて選びます。買ったあとは「買った日の設定」の1〜6を、一緒に進めます。</p><div class="yen"><b>20,000円</b><span>購入補助とセットアップ込み</span></div></div>
+</div>
+<p class="src">オンラインのレッスンは60分で5,000円、対面は購入補助とセットアップを合わせて20,000円です。1回ごとに予約して受けます。パソコンの購入代金とツールの利用料は、別にかかります。</p>
+
+<h2 id="words">パソコンの用語を、台所でたとえると</h2>
+<p>スペック表には、メモリ、SSD、CPUなど、聞き慣れない言葉が並びます。パソコンを「料理の台所」にたとえると、それぞれの役目が分かります。動画づくりは「料理」、動画や曲のファイルは「食材」です。</p>
+<div class="words">
+<div class="w"><svg viewBox="0 0 80 80" class="ic" aria-hidden="true"><path class="f" d="M24 30c-8-2-9-14 0-15 2-8 14-9 17-2 5-5 15-1 14 8 6 2 5 10-2 9z"/><rect x="26" y="30" width="28" height="10" rx="2"/><circle cx="40" cy="54" r="12" class="f"/><path class="a" d="M35 53h.1M45 53h.1M36 59q4 3 8 0"/></svg>
+<span class="t">CPU ＝ 料理人</span><h3>どれだけ手が速いか</h3>
+<p>パソコンの頭脳です。料理人の腕が良いほど、同じ料理が速く仕上がります。「Ryzen」「Core i5」「M5」などの名前で書かれます。</p>
+<p class="now">今回: 3台とも第10〜11世代のCore i5〜i7です。ブラウザとCapCutを動かす用途を想定していて、名前の細かい数字は比べなくて大丈夫です。</p></div>
+
+<div class="w"><svg viewBox="0 0 80 80" class="ic" aria-hidden="true"><rect class="f" x="8" y="34" width="64" height="10" rx="3"/><path d="M14 44v22M66 44v22"/><circle class="a" cx="26" cy="28" r="8"/><rect class="a" x="40" y="22" width="18" height="12" rx="2"/></svg>
+<span class="t">メモリ ＝ 作業台の広さ</span><h3>同時に広げられる量</h3>
+<p>いま作業している物を、並べておく場所です。広いほど、ブラウザ、Claude、CapCutを開いたままでも手元が散らかりません。電源を切ると、作業台は片付きます（保存はされません）。足りないと、動きが遅くなります。</p>
+<p class="now">今回: CapCut公式の推奨は8GB以上。余裕を見て<b>16GB</b>を目安にしました。3台とも16GBです。</p></div>
+
+<div class="w"><svg viewBox="0 0 80 80" class="ic" aria-hidden="true"><rect class="f" x="18" y="8" width="44" height="64" rx="5"/><path d="M18 34h44M26 18v8M26 42v12"/><circle class="a" cx="54" cy="46" r="1"/></svg>
+<span class="t">保存容量（SSD）＝ 冷蔵庫・倉庫</span><h3>しまっておける量</h3>
+<p>作った動画、曲、写真、アプリをしまう場所です。大きいほどたくさん溜められます。「SSD」は、出し入れが速いタイプの倉庫です。入り切らない分は、外付けSSDやクラウドに預けられます。</p>
+<p class="now">今回: ThinkPad X13 Gen1とEliteBook 830 G8が256GB、Latitude 7320が512GBです。動画を溜めたいなら大きいほうが安心です。</p></div>
+
+<div class="w"><svg viewBox="0 0 80 80" class="ic" aria-hidden="true"><rect class="f" x="8" y="12" width="64" height="44" rx="4"/><path d="M28 70h24M40 56v14"/><path class="a" d="M16 20l10 0M16 20v8"/></svg>
+<span class="t">画面（インチ）＝ 窓の大きさ</span><h3>一度に見える範囲</h3>
+<p>大きいほど、編集の画面が広く見えて作業しやすくなります。小さいほど軽く、持ち運びに向きます。動画も画像も作る作業はネットの向こうで行うので、パソコンの性能より、画面の見やすさが効きます。</p>
+<p class="now">今回: 3台とも13.3型のフルHDです。</p></div>
+
+<div class="w"><svg viewBox="0 0 80 80" class="ic" aria-hidden="true"><path class="f" d="M24 28h32l6 36H18z"/><path d="M32 28c0-12 16-12 16 0"/><path class="a" d="M34 46h12"/></svg>
+<span class="t">重さ・バッテリー ＝ 持ち運び</span><h3>買い物かごの重さ</h3>
+<p>家で使うだけなら、気にしなくて構いません。外に持ち出すなら、軽いほうが楽です。バッテリーは使うほど減る消耗品で、中古は減り具合の確認が要ります。</p>
+<p class="now">今回: 3台とも、出典の記事には重さの記載がありません。持ち歩くなら、店で持って確かめてください。</p></div>
+
+<div class="w"><svg viewBox="0 0 80 80" class="ic" aria-hidden="true"><rect class="f" x="10" y="16" width="60" height="48" rx="5"/><path d="M10 30h60M22 44h14M22 54h24"/><circle class="a" cx="58" cy="50" r="6"/></svg>
+<span class="t">OS（WindowsかMac）＝ お店の決まり</span><h3>操作の作法</h3>
+<p>台所の道具の置き場所や、使い方の決まりのようなものです。WindowsとMacで、ボタンの位置や使い方が少し違います。CapCutもClaudeもDreaminaも、どちらでも使えます。</p>
+<p class="now">今回: 3台ともWindows 11 Proです。Macにする場合は、参考の整備済製品になります。</p></div>
+
+<div class="w"><svg viewBox="0 0 80 80" class="ic" aria-hidden="true"><path class="f" d="M30 8h20v14H30z"/><path d="M40 22v16M24 38h32v10H24zM32 48v18M48 48v18"/><path class="a" d="M26 66q14 8 28 0"/></svg>
+<span class="t">ネット回線 ＝ 水道管</span><h3>材料を運ぶ道</h3>
+<p>Dreaminaで動画を作る作業は、ネットの向こうで行います。家のWi-Fiが安定していると、待ち時間が短く、途中で止まりにくくなります。パソコン選びと同じくらい、家の回線が効きます。</p>
+<p class="now">今回: パソコン選びと別に、家のWi-Fiが安定しているかを確かめます。</p></div>
+</div>
+
+<h3>「メモリが足りない」とは、こういうこと</h3>
+<p>作業台が狭いと、ブラウザ、Claude、CapCutを同時に広げきれません。置けない分は倉庫（SSD）に出し入れしながら作業するので、動きが遅くなります。作業台が広ければ、全部を広げたまま作業できます。下は、たとえ話の図です。実際の使用量ではありません。</p>
+<div class="bench">
+<div class="bn"><h3>メモリが少ない（狭い作業台）</h3><div class="top s"><span class="dish">ブラウザ</span><span class="dish">Claude</span></div><div class="out">置ききれない: <span class="dish">CapCut</span><span class="dish">Dreamina</span> → 動きが遅くなる</div></div>
+<div class="bn"><h3>メモリが多い（広い作業台）</h3><div class="top"><span class="dish">ブラウザ</span><span class="dish">Claude</span><span class="dish">CapCut</span><span class="dish">Dreamina</span></div><div class="out">全部広げたまま作業できる</div></div>
+</div>
+<div class="note">スペック表を見るときは、まず3つです。<b>①メモリが16GBか</b>　<b>②保存容量（SSD）がいくつか</b>　<b>③画面が何インチか</b>。ほかの項目は、迷ったら気にしなくて大丈夫です。</div>
+
+<h2 id="pc">パソコン選び（秋葉原のPCコンフルの中古）</h2>
+<p><span class="tag said">面談で話した</span>Macは型落ちでも発売から5年以内まで。古すぎると今のAIが使いにくくなる。Windowsは安いノートがあり、都内なら秋葉原の中古店も見られる。</p>
+<p>この話をもとに、秋葉原の中古専門店「PCコンフル」の今週の特価品から、メモリ16GBの3台を選びました。新品の16GB・512GBは10万円前後からですが、中古なら3万円台からあります。価格と在庫は、下の出典記事の掲載日（10月8日・15日）のものです。</p>
+
+<div class="cards">
+<div class="pc rec"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><circle class="f" cx="24" cy="24" r="17"/><path class="a" d="M17 14l7 10 7-10M24 24v13M18 28h12M18 33h12"/></svg><span class="k">いちばん安い・保存容量256GB</span><h3>Lenovo ThinkPad X13 Gen1</h3><div class="price">34,800円<small> 税込</small></div>
+<dl><dt>中身</dt><dd>第10世代Core i5 ／ メモリ16GB ／ SSD 256GB</dd><dt>画面</dt><dd>13.3型 フルHD</dd><dt>OS</dt><dd>Windows 11 Pro</dd><dt>店・在庫</dt><dd>PCコンフル3号店 ／ 20台（10/15掲載）</dd></dl>
+<p class="src">出典: <a href="https://daily-gadget.net/akiba/121743/">デイリーガジェット 2026/10/15</a></p></div>
+
+<div class="pc"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><rect class="f" x="9" y="10" width="30" height="22" rx="2.5"/><path d="M4 38h40l-4-6H8z"/></svg><span class="k">新しめの世代・保存容量256GB</span><h3>hp EliteBook 830 G8</h3><div class="price">47,800円<small> 税込</small></div>
+<dl><dt>中身</dt><dd>第11世代Core i5 ／ メモリ16GB ／ SSD 256GB</dd><dt>画面</dt><dd>13.3型 フルHD</dd><dt>OS</dt><dd>Windows 11 Pro</dd><dt>店・在庫</dt><dd>PCコンフル本店 ／ 10台（10/15掲載）</dd></dl>
+<p class="src">出典: <a href="https://daily-gadget.net/akiba/121743/">デイリーガジェット 2026/10/15</a></p></div>
+
+<div class="pc"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><circle class="f" cx="21" cy="21" r="12"/><path d="M30 30l11 11"/><path class="a" d="M15.5 21l4 4 7-8"/></svg><span class="k">保存容量が多い・動画を溜める</span><h3>DELL Latitude 7320</h3><div class="price">59,800円<small> 税込</small></div>
+<dl><dt>中身</dt><dd>第11世代Core i7 ／ メモリ16GB ／ SSD 512GB</dd><dt>画面</dt><dd>13.3型 フルHD</dd><dt>OS</dt><dd>Windows 11 Pro</dd><dt>店・在庫</dt><dd>PCコンフル本店 ／ 7台（10/8掲載）</dd></dl>
+<p class="src">出典: <a href="https://daily-gadget.net/akiba/121405/">デイリーガジェット 2026/10/8</a></p></div>
+</div>
+<p class="note">3台とも毎週の「週末特価品」です。入れ替わるので、行く前に店のX（<a href="https://x.com/pccomfullakb2">2号店</a>・<a href="https://twitter.com/pccomfullakb4">4号店</a>）か店頭で、在庫を確かめてください。記事には「会計時に『デイリーガジェットを見た』と言えば800円OFF（一部商品は対象外）」とも書かれています。</p>
+
+<h3>予算で選ぶ目安</h3>
+<div class="pk"><svg class=" ic" viewBox="0 0 48 48" aria-hidden="true"><circle class="f" cx="24" cy="24" r="17"/><path class="a" d="M17 14l7 10 7-10M24 24v13M18 28h12M18 33h12"/></svg><span class="lim">3万円台まで</span><span class="nm">ThinkPad X13 Gen1</span><p>16GBで最安です。SSDは256GBなので、動画は外付けSSDやクラウドに逃がします。</p></div>
+<div class="pk"><svg class=" ic" viewBox="0 0 48 48" aria-hidden="true"><rect class="f" x="9" y="10" width="30" height="22" rx="2.5"/><path d="M4 38h40l-4-6H8z"/></svg><span class="lim">5万円前後まで</span><span class="nm">EliteBook 830 G8</span><p>世代が新しく、動作がきびきびしやすい1台です。SSDは256GBです。</p></div>
+<div class="pk"><svg class=" ic" viewBox="0 0 48 48" aria-hidden="true"><circle class="f" cx="21" cy="21" r="12"/><path d="M30 30l11 11"/><path class="a" d="M15.5 21l4 4 7-8"/></svg><span class="lim">6万円前後まで</span><span class="nm">Latitude 7320</span><p>SSDが512GBで、動画を本体に溜めやすい1台です。</p></div>
+<h3>ほかの選び方（参考）</h3>
+<div class="pk"><svg class=" ic" viewBox="0 0 48 48" aria-hidden="true"><rect class="f" x="11" y="11" width="26" height="19" rx="2"/><path d="M5 36h38l-3-6H8z"/><path class="a" d="M19 20h10"/></svg><span class="lim">新品のWindowsがいい</span><span class="nm">HP OmniBook 3 14型（16GB/512GB）</span><p>109,900円。10/26（月）12:59までのセール価格です。<a href="https://jp.ext.hp.com/campaign/personal/others/season_kessan_2/notebook/">HPセール一覧</a></p></div>
+<div class="pk"><svg class=" ic" viewBox="0 0 48 48" aria-hidden="true"><path class="f" d="M24 6l4 12 12 4-12 4-4 12-4-12-12-4 12-4z"/><path class="a" d="M38 6v8M34 10h8M10 34v6M7 37h6"/></svg><span class="lim">Macがいい</span><span class="nm">Apple整備済 15インチ MacBook Air M5（16GB/512GB）</span><p>223,800円。<a href="https://www.apple.com/jp/shop/product/fdv94j/a">Apple商品ページ</a></p></div>
+<p class="src">10月21日に販売ページで確かめた価格です。</p>
+
+<h3>メモリは16GBを目安にする</h3>
+<p>CapCut公式のヘルプでは、Windows版は「8GB以上のRAMを推奨」とあります。ブラウザでDreaminaとClaudeを開いたまま編集するので、余裕を見て16GBの3台にしました。<span class="src">出典: <a href="https://www.capcut.com/help/no-2k-or-4k-option-for-export">CapCut公式ヘルプ</a></span></p>
+<p>動画も画像も生成はブラウザの先で行うので、パソコンの性能より、画面の大きさと通信の安定のほうが効きます。<span class="tag added">調べて追加</span></p>
+
+<h3>店で聞くこと・確かめること</h3>
+<ul>
+<li>保証の期間と、保証の内容（店によって違います）。</li>
+<li>バッテリーの減り具合。バッテリーは消耗品で、中古は減っていることがあります。</li>
+<li>Windows 11が入っているか。</li>
+<li>画面とキーボードに傷や不具合がないか。その場で電源を入れて確かめます。</li>
+<li>Microsoft Office（WordやExcel）は入っていないことが多いです。今回の用途では不要です。</li>
+</ul>
+<p>参考までに、ソフマップの中古の規定では、到着から10日以内の連絡なら使用後でも全額返金（一部商品を除く）、バッテリーなどの消耗品は動作保証の対象外です。<span class="src">出典: <a href="https://used.sofmap.com/r/precautions">ソフマップ 中古のご注意</a>（10/21確認）</span></p>
+<p><span class="tag said">面談で話した</span>IT化に使える補助金があるかもしれません。プロフィールを伝えると、AIが探してくれます。買う前に一度聞いてみると安心です。</p>
+
+<h2 id="setup">買った日の設定</h2>
+<p>電源を入れてから、順番に進めます。1〜5は無料です。</p>
+<div class="step"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><rect class="f" x="11" y="11" width="26" height="19" rx="2"/><path d="M5 36h38l-3-6H8z"/><path class="a" d="M19 20h10"/></svg><span class="no">1</span><h3>パソコンの初期設定と更新</h3><p>画面の案内に従って、Wi-Fiにつなぎ、Windows（またはMac）の更新を最後まで済ませます。中古の場合は、先にバッテリーの持ちを確かめます。</p></div>
+<div class="step"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><circle class="f" cx="24" cy="24" r="16"/><path d="M8 24h32M24 8c-9 8-9 24 0 32M24 8c9 8 9 24 0 32"/></svg><span class="no">2</span><h3>ブラウザを用意する</h3><p>ふだん使うブラウザ（ChromeかSafari）を入れ、ブックマークバーを出します。</p></div>
+<div class="step"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><path class="f" d="M8 9h32v23H21l-9 8v-8H8z"/><path class="a" d="M15 17h18M15 24h11"/></svg><span class="no">3</span><h3>Claudeに登録する（無料プラン）</h3><p>入口: <a href="https://claude.ai/">https://claude.ai/</a><br>最初は無料で足ります。使う上限に何度も当たるようになってから、有料を考えます（面談でゆみパン先生とユウキから出た話です）。アプリ版が必要になったら、公式ヘルプでは Windows 10以降、macOS 13以降が対象です。</p></div>
+<div class="step"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><circle class="a" cx="13" cy="35" r="5"/><circle class="a" cx="35" cy="35" r="5"/><path d="M17 31L36 9M31 31L12 9"/></svg><span class="no">4</span><h3>CapCutを入れる</h3><p>入口: <a href="https://www.capcut.com/ja-jp/">https://www.capcut.com/ja-jp/</a></p>
+<div class="shot"><img src="img/capcut-btn.jpg" alt="CapCut公式トップの2つのボタン" width="340" height="160"><span class="ring" style="left:20%;top:41%;width:60%;height:21%"></span><span class="badge" style="left:81.5%;top:43%">①</span></div>
+<p>① 「ダウンロード」を押すと、パソコン用のアプリが入ります。その上の「オンラインで無料で試す」は、アプリを入れずにブラウザで使うほうです。パソコンが重いときの代わりになります。</p></div>
+<div class="step"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><path class="f" d="M24 6l4 12 12 4-12 4-4 12-4-12-12-4 12-4z"/><path class="a" d="M38 6v8M34 10h8M10 34v6M7 37h6"/></svg><span class="no">5</span><h3>Dreaminaに登録する</h3><p>入口: <a href="https://dreamina.capcut.com/ja-jp">https://dreamina.capcut.com/ja-jp</a></p>
+<div class="shot"><img src="img/dreamina-login.jpg" alt="Dreaminaのログイン画面" width="316" height="380"><span class="ring" style="left:11.7%;top:25.3%;width:76.6%;height:10%"></span><span class="badge" style="left:89%;top:26.5%">①</span></div>
+<p>① 画面に出る登録の選択肢のうち、ふだん使っているGoogleアカウントの「Googleで続行」が一番かんたんです。メールで登録する場合は、その下の「メールで続行」を選びます。</p>
+<p class="src">無料枠の説明: <a href="https://dreamina.capcut.com/ja-jp/ai-video/free-image-to-video-generator-credits-faq">Dreamina公式FAQ</a>（毎日の無料クレジットがあると書かれています。数字と条件は変わることがあるので、登録後の画面で確かめてください）</p></div>
+<div class="step"><svg class="ico ic" viewBox="0 0 48 48" aria-hidden="true"><rect class="f" x="6" y="11" width="36" height="26" rx="4"/><path class="a" d="M20 17l12 7-12 7z"/></svg><span class="no">6</span><h3>試しに1本、書き出す</h3>
+<ol><li>Claudeに、参考のTikTokのリンクを渡して、イメージを言葉にしてもらう（STEP 5）</li><li>Dreaminaで、白い龍の画像を1枚作る</li><li>その画像を、5秒の動画にする</li><li>CapCutに動画を入れ、曲を乗せる</li><li>「書き出し」で保存する（まずは完成度を求めず、最後まで通すことが目的です）</li></ol></div>
+<p class="note">MacもWindowsも、1〜6の流れは同じです。Dreaminaのログイン画面は、使う時期によって選択肢が変わることがあります。</p>
+
+<h2 id="talk">面談で話した内容</h2>
+<h3>マリアさんの状況</h3>
+<ul><li>会社で働きながら、占いとライブ配信をしている。</li><li>音楽はAIで作る。「おまかせ」ではなく、英語で細かく指定する。</li><li>共同制作者と、音楽用の別アカウントを作る。その第1作目の動画を作りたい。</li><li>動画は作ったことがない。やり方を覚えて、自分で作りたい。</li><li>パソコンは、15年ほど前のWindowsとMacしかない。スマホはiPhone 13 mini。</li></ul>
+<h3>参考動画と見本</h3>
+<ul><li>参考は、龍が滑らかに駆け回るTikTok。富士山の横を通るなど、運気が上がる雰囲気。</li><li>投稿先はYouTubeもTikTokも。長さは参考と同じ20秒台でいい。</li><li>見本は、Dreaminaで作った和風の白い龍。動かすときの指示は、文章でDreaminaに伝える。いろいろな角度で動き回る映像も、同じやり方で作る。</li></ul>
+<h3>AIの使い方</h3>
+<ul><li>Claudeは、質問に答える相談員というより、仕事を頼む社員のような使い方。前回の続きを覚えていて、時間を決めた作業や、投稿の予約も頼める。</li><li>ゆみパン先生は、ホームページの分析や授業の組み立てに使っている。</li><li>有料プランとの違いは、使える量の上限。最初は無料でいい。</li><li>面談の最中も、ユウキは文字起こしをClaudeにさせていた。この議事録とパソコン選びのまとめは、そこから作っている。</li></ul>
+<h3>パソコンの話</h3>
+<ul><li>スマホだけで進めるのは難しい。スマホの買い替えより、パソコンが先。</li><li>Macは型落ちでも発売から5年以内。古いと今のAIが使いにくくなる。Windowsには安いノートもある。</li><li>都内なら、秋葉原に中古のパソコン屋が多い。</li><li>補助金が使えるかもしれない。AIに聞くと探してくれる。</li></ul>
+<h3>このあと</h3>
+<ul><li>ユウキから、このページと、パソコンの候補・買い方のまとめを共有する。</li><li>オンラインのレッスンと、パソコンを買いに行く手伝いは、このページの「ユウキに頼む場合のメニュー」にまとめた。</li><li>同じことで困っている人がいたら、ユウキを紹介してほしい。</li></ul>
+
+<h2 id="text">文字起こし</h2>
+<div class="tk"><h3>要約</h3><ul><li>参考動画のリンクをClaudeに渡し、何を連想するかを言葉にしてもらう</li><li>出てきた言葉をDreaminaに入れ、少しずつ形にしていく</li><li>Claudeは無料プランから始め、上限に当たってから有料を考える</li><li>AIの動画づくりはスマホだけでは難しく、先にパソコンを用意する</li><li>自分で1回やってみて、詰まったところだけ相談する</li></ul></div>
+<a class="btn" href="bunko.html">読み物版（添削・要約・マーカー）を読む<small>面談の流れを章に分けて、大事な発言にマーカーを引きました</small></a>
+<details><summary>字幕の原文を開く（整形のみ・約30分）</summary>
+<p class="src">Google Meetの自動字幕です。誤変換は固有名詞だけ直し、発言の中身は足していません。意味が取れない所は字幕のまま残しています。</p>
+<p class="u m"><b>マリア</b>こんにちは。</p>
+<p class="u y"><b>ユウキ</b>はーい、おはようございます。よろしくお願いします。</p>
+<p class="u m"><b>マリア</b>よろしくお願い致し。 ません。この度はご縁をいただき。</p>
+<p class="u y"><b>ユウキ</b>いえいえ、大丈夫ですよ。カメラは 今日はどうします？映さない感じですか？</p>
+<p class="u m"><b>マリア</b>ます。すいません。あのちょっとすっぴんなんで。</p>
+<p class="u y"><b>ユウキ</b>気にしないのにまだ動けないですよ。 どうももしもーし。</p>
+<p class="u m"><b>マリア</b>入れちゃった。すいません。なんか切れちゃう。すいません。</p>
+<p class="u y"><b>ユウキ</b>うん、はい、大丈夫ですか？ゆみパン先生も来るのかな？あれ 来ないのかな？どうなんだろう？</p>
+<p class="u m"><b>マリア</b>いや、昼休みなんで昼休み 入ってから来るって言ってました。 はい、すいません。なんかありがとうございます。なんか 参考のであの15秒間っていうかあのなんて言うんですか？ TikTokって20何秒でしたっけ？30秒でしたっけ？</p>
+<p class="u y"><b>ユウキ</b>多分いきなり細かい話をすると多分そっち横道 逸れちゃうと思うんで、まず</p>
+<p class="u m"><b>マリア</b>あ、そうですか。はい、わかります。</p>
+<p class="u y"><b>ユウキ</b>そもそもになんてお呼びすればいいんですか？</p>
+<p class="u m"><b>マリア</b>マリアでいいです。はい。</p>
+<p class="u y"><b>ユウキ</b>はい、僕は本名で勇気で大丈夫です。今どちらにいらっしゃるんです。</p>
+<p class="u m"><b>マリア</b>はい、ありがとうございます。はい。 今家です。</p>
+<p class="u y"><b>ユウキ</b>都内ですか？</p>
+<p class="u m"><b>マリア</b>都内でする。はい。</p>
+<p class="u y"><b>ユウキ</b>パン屋さんとは関係ないんですか？</p>
+<p class="u m"><b>マリア</b>パンちゃんですか？お友達？</p>
+<p class="u y"><b>ユウキ</b>ではではなく、マリアさんはパン屋さんをやってるわけではないんです。ではなくて、普段はどういうことをされてる？</p>
+<p class="u m"><b>マリア</b>関係ないです。関係ないです。はい。 普段はあの普通に働いてます。働いていてかつ 占い師をやってます。</p>
+<p class="u y"><b>ユウキ</b>あー、なるほど。その占い関係ので</p>
+<p class="u m"><b>マリア</b>あとそうです。占いとライブ配信やってますね。</p>
+<p class="u y"><b>ユウキ</b>なるほど。なるほど。あとごめんなさい。はいうん。 うん、うんうん、なるほど で、その占い系のコンテンツに使えそうな曲をすでにお持ちで、それに それにつける動画みたいなものができたらいいなっていう。そういう経緯ですね。</p>
+<p class="u m"><b>マリア</b>私が作ってます。はい。 あのまた別にアカウントを作ってちょっと。それは音楽 アカウントになるんですけど、青山マリア名義じゃなくて ちょっと 共同制作者がいて、一人でその音楽のこと、一緒にアカウントを1個作って、2人でどんどん音楽をアップしていきたい。音楽 動画とかもそれに入れたんですね。</p>
+<p class="u y"><b>ユウキ</b>あ、なるほど。じゃ マリアさんとしてのお名前じゃなくて、その共同で何かやって書いて時に作る 曲につける動画を作りたいと。</p>
+<p class="u m"><b>マリア</b>つけるって言うか、そこにアップする動画の第1作目。</p>
+<p class="u y"><b>ユウキ</b>ちなみにこのマリアさん自身は aiは結構使われてますとも</p>
+<p class="u m"><b>マリア</b>YouTubeです。</p>
+<p class="u y"><b>ユウキ</b>全然ですか？ うん。明日の使ってるなるほどね。音楽作る際に杖 aiを使うっていうのが主な使い方。</p>
+<p class="u m"><b>マリア</b>そうですね。はい。</p>
+<p class="u y"><b>ユウキ</b>なるほど。なんか要はどういうことか っていうとね。先ほどとかそのアンケートでおっしゃってた。できれば</p>
+<p class="u m"><b>マリア</b>はい。 はいはい。</p>
+<p class="u y"><b>ユウキ</b>やり方</p>
+<p class="u m"><b>マリア</b>はい、はい、はいはい。</p>
+<p class="u y"><b>ユウキ</b>覚えて自分からやりたいっていう内容ですよね。で考えると、多分 aiの全体的な知識を身につける必要があるかなと思ってするのも良いんですが。多分</p>
+<p class="u m"><b>マリア</b>はいはい。</p>
+<p class="u y"><b>ユウキ</b>他に例えば僕の場合は主に使ってるのが</p>
+<p class="u m"><b>マリア</b>はいはい。</p>
+<p class="u y"><b>ユウキ</b>Claudeってご存知です。</p>
+<p class="u m"><b>マリア</b>アップロードで。</p>
+<p class="u y"><b>ユウキ</b>はいを使ってるんですけれども僕の場合こんな感じでね</p>
+<p class="u m"><b>マリア</b>はい、はい、はいはいはい。</p>
+<p class="u y"><b>ユウキ</b>多分そこのノウハウも必要になってくると思うんですよ</p>
+<p class="u m"><b>マリア</b>はいはい。</p>
+<p class="u y"><b>ユウキ</b>こういうものって自分で頑張って</p>
+<p class="u m"><b>マリア</b>はいはい。</p>
+<p class="u y"><b>ユウキ</b>ゼロから勉強していけそうです あれもしもし メンバー悪くなっちゃったかな。 入り直しましたか。</p>
+<p class="u m"><b>マリア</b>すいませんね。なんか すぐ切れちゃってなんで切れちゃうんだろう。下のあれを見ようと思ったら切れ ちゃっ。</p>
+<p class="u y"><b>ユウキ</b>まあ大丈夫ですよそう AI</p>
+<p class="u m"><b>マリア</b>てる？</p>
+<p class="u y"><b>ユウキ</b>に関しては結構自分で学習しながらトライ&amp;エラーで行けそうな感じですか。</p>
+<p class="u m"><b>マリア</b>そうですね。音楽作る時もあのおまかせじゃなくて 詳細プロでやってるんで英語で。</p>
+<p class="u y"><b>ユウキ</b>なるほどなるほどねというのは今回 僕が思ってたのは僕がもう今やり方パッとその 言った内容だけで一応聞いて銃を理解できるのであれば もう正直お金とか頂かずこれで終わりでいいなと思ったんです</p>
+<p class="u m"><b>マリア</b>いやいや、いやいやはい。</p>
+<p class="u y"><b>ユウキ</b>でもし今後も何か そういうものが必要ってなるんであればなんか</p>
+<p class="u m"><b>マリア</b>はい。</p>
+<p class="u y"><b>ユウキ</b>こんな感じでそのオンライン レッスンみたいな感じで1回いくら出会ってこうと思った でも 僕ももうすでに分かってるものに対して無駄ににいただくのもったいないなって と申し訳ない思うから</p>
+<p class="u m"><b>マリア</b>いや、いやいや。</p>
+<p class="u y"><b>ユウキ</b>そこも合わせてのその認識合わせをしていく必要があるなと思っていて</p>
+<p class="u m"><b>マリア</b>動画は作ったことないんですよ。作ったことないっていうの音楽をアップしてんですけど、その動く動画 動く動画は作ったなんか動く動画の作り方 教えていただければと思います。</p>
+<p class="u y"><b>ユウキ</b>はい、はい、はいはいはいはいはいはいはいはいはいはい ぶっちゃけ</p>
+<p class="u m"><b>マリア</b>aiでね。</p>
+<p class="u y"><b>ユウキ</b>大丈夫ですよ。今来たかな？今入れますね。ゆみパン先生をはいと。 もしもーしどうもどうも。</p>
+<p class="u p"><b>ゆみパン先生</b>こんにちは。</p>
+<p class="u m"><b>マリア</b>すんませんね。はい、ありがとう。お仕事中に。</p>
+<p class="u y"><b>ユウキ</b>あーね、聞きました。今え今昼休み的な感じですか？ 今2番目で声が入ってないかも。 それで今入った。</p>
+<p class="u m"><b>マリア</b>聞こえてる？</p>
+<p class="u p"><b>ゆみパン先生</b>てるちゃんが顔に出せないけどいい？秘密？</p>
+<p class="u m"><b>マリア</b>ごめんなさい。</p>
+<p class="u y"><b>ユウキ</b>すっぴんなんだって。</p>
+<p class="u p"><b>ゆみパン先生</b>美しい人なんですよ。</p>
+<p class="u y"><b>ユウキ</b>謎なの？</p>
+<p class="u p"><b>ゆみパン先生</b>マジで。</p>
+<p class="u m"><b>マリア</b>みんなでごめんなさい。</p>
+<p class="u p"><b>ゆみパン先生</b>マジかよ。</p>
+<p class="u y"><b>ユウキ</b>ゆみパン先生とはどういうなんか前話してた いわゆるコミュニティ的な感じのつながりですか？</p>
+<p class="u p"><b>ゆみパン先生</b>いや、もうね。昔の仕事職場仲間今も繋がってますけど。</p>
+<p class="u y"><b>ユウキ</b>なるほど、そうだったん。</p>
+<p class="u m"><b>マリア</b>お友達です。今も</p>
+<p class="u y"><b>ユウキ</b>ださっきも背景 聞いてたらね。そのパンの一人ですから、パンとは関係なくて会社にやりながら 今 占い系のことやっていてで、他の人と共同制作で音楽を作っているから、今後 今度それにつける 曲に紐づく動画を作りたいと、そのためのそのaiを使った動画制作のノウハウを知りたい みたいなことをおっしゃってた。そこまであってますかね？ はい、ありがとうございます。で、追加で行ったのはそのもう何でしょう？aiの知識がかなり もうあるのであれば、僕がパッと今日</p>
+<p class="u m"><b>マリア</b>はい、ありがとうございます。</p>
+<p class="u y"><b>ユウキ</b>これで言い方教えちゃって。それでもうお金をもらわず、それで終わりでいいかな？って思ったんですけども、そのマリアさん的にいやなんかせっかくだからやっていきたい みたいなことですかね。</p>
+<p class="u m"><b>マリア</b>どうしよう？せっかく1回目 作る時教えていただきたいですよね。やっぱり。</p>
+<p class="u y"><b>ユウキ</b>言ってね。ぶっちゃけ。僕も動画を制作っていうのは今回のこのお仕事もらうまでは全然やってなかったんですよ。</p>
+<p class="u m"><b>マリア</b>あ、そうですか？</p>
+<p class="u y"><b>ユウキ</b>ただ今 そんな状態でも今こういう風になりました。っていうの パッと見てもらうと今画面見えてますかね？</p>
+<p class="u m"><b>マリア</b>はい、見えてます。はい。</p>
+<p class="u y"><b>ユウキ</b>はい、はい、はいはいはいはいはいはいはいはいね。まずいただいた その参考の TikTok こんな感じのがいいな</p>
+<p class="u m"><b>マリア</b>はい。</p>
+<p class="u y"><b>ユウキ</b>ってのがこれですよね。アートえーっと</p>
+<p class="u m"><b>マリア</b>そうです。</p>
+<p class="u y"><b>ユウキ</b>流れないんだ。こっちでいいの？</p>
+<p class="u m"><b>マリア</b>動いて何て言うかな？滑らかにあ そうです。こんな感じで滑らかに動いてるのが欲しい。こういろんなところを駆け回ってなんか 富士山の横通ったり、そういうなんか運気上昇</p>
+<p class="u y"><b>ユウキ</b>はい、はい、はいはいはいはいはいはいはいはいはいはい。</p>
+<p class="u m"><b>マリア</b>っていうやつ。</p>
+<p class="u y"><b>ユウキ</b>なるほどね。これあげるのは YouTubeって言ってことはその横長これ TikTok 縦長になるんですけども、YouTubeかショート系になるんですかね？曲の長さっていうのは？</p>
+<p class="u m"><b>マリア</b>全部 TikTokもYouTubeも全部あげたいんで。 曲はあの切り取りで勝手にくっつくので、なんかあの1回 参考動画見せた時、勝手に aiがいい 部分切り取ってくっつけてくれたんですけど。</p>
+<p class="u y"><b>ユウキ</b>つまりアップするのはじゃ短い動画になるって事ですかね？それとも。</p>
+<p class="u m"><b>マリア</b>どうなんだろう？あのこの参考のやつが20何秒だったと思うんですけど、本物</p>
+<p class="u y"><b>ユウキ</b>はい、はい、これはそうですね。超えて TikTok だから短い。</p>
+<p class="u m"><b>マリア</b>本物 ね。それぐらいでいいんですよね？それぐらいでいいです。</p>
+<p class="u y"><b>ユウキ</b>そうなんだ。なるほど。なるほどでね。そうそうでイメージ どんな感じの？そうそう、和風の白い龍にしたい みたいな。まず1枚目 画像で作るとこんな感じですよね。これが動いたらいいなっていうので、僕が今回使ったのはどれだったかな？えっとね。動画？</p>
+<p class="u m"><b>マリア</b>はい、そうです。 そうです。 はい。</p>
+<p class="u y"><b>ユウキ</b>を大丈夫ですか？ちょっと後ろの声が入ってる民間</p>
+<p class="u m"><b>マリア</b>すごい入ってる。</p>
+<p class="u y"><b>ユウキ</b>ミュートにしたミュートにした方がいいかもしれない。 あるいはイヤホン。 大丈夫ですか？大丈夫かな？ゆみパン先生？ ありがとうございます。はい、はいはいはいはいはい。ほんで</p>
+<p class="u m"><b>マリア</b>はい。</p>
+<p class="u y"><b>ユウキ</b>僕が使ったai ソフト僕の場合は</p>
+<p class="u m"><b>マリア</b>はい。 はい。</p>
+<p class="u y"><b>ユウキ</b>これかえっとね。Dreaminaそう。さっきも言ったように、僕もこれを今回 そういうのはしたいって言われて、初めて</p>
+<p class="u m"><b>マリア</b>はい。</p>
+<p class="u y"><b>ユウキ</b>何かできるかどうやってやるんだろうと思って調べたぐらいの内容なんですよ。今</p>
+<p class="u m"><b>マリア</b>はい。</p>
+<p class="u y"><b>ユウキ</b>これ見えてるのか？これDreaminaこれ 中国のやつですね。あの、TikTokを作っている会社が作ってるやつです。</p>
+<p class="u m"><b>マリア</b>はいはい。 えー、Dreaminaはい。はいはい。</p>
+<p class="u y"><b>ユウキ</b>Dreamina これね。無料プランでもある程度できることはあるんで、僕今回頂いたので 短いのだけ作ったのがこんな感じかな。 これがまだ最初の5秒ぐらいですけども。まあイメージ なんでこれをちょっと動かしてみてで、さらにこれが</p>
+<p class="u m"><b>マリア</b>はい、はい、はいはい。</p>
+<p class="u y"><b>ユウキ</b>いろんなアングルで動き回るって言うのはいわゆる そのバイブコーディング、自分で その文章を入れ込んでこうなってほしいっていうのを</p>
+<p class="u m"><b>マリア</b>うん。</p>
+<p class="u y"><b>ユウキ</b>さっき言った。このDreamina</p>
+<p class="u m"><b>マリア</b>はいはい。 はい、うんうん。</p>
+<p class="u y"><b>ユウキ</b>この中でその指示を出していく っていうイメージ。まあ、細かい部分は あれとその全体的な流れとしては こういう感じなんですっていうので、なんとなく全体のイメージ感とか流れてのつかめます。マリア</p>
+<p class="u m"><b>マリア</b>うん。 はい、はい、わかります。わかります。ただ、その詳細のプロンプトの書き方とかがよく音楽だったらあのね。速さがどうとか</p>
+<p class="u y"><b>ユウキ</b>さん！</p>
+<p class="u m"><b>マリア</b>こういう感じで、ここにドラムを入れてとかこうやって全部わかるんですけど、音楽はオンラインで なんで音楽は強いんですけど、動画をやったことないんで。</p>
+<p class="u y"><b>ユウキ</b>はい、はい、はいはいはいはいはいはい、なるほどね。一番手っ取り早いのはもう 参考がね。今回で言うとこれみたいっておっしゃってたじゃないですか？そういうものをどんどんどんどん？その学ばせて 僕だったら僕だったらですよ。えっとやり方としては？ 先生、こんな感じで大丈夫です。もしかしたら参加耳だけ 3回になるかもしれないですけども。だからもう自分のことは あれやったら全然やりながらで聞いてもらえれば。</p>
+<p class="u p"><b>ゆみパン先生</b>その調子でやって。</p>
+<p class="u y"><b>ユウキ</b>分かりました。はい、僕だったらどういう風にやるかっちゅうと 例えば参考のなんだっけ？TikTokがこれか</p>
+<p class="u m"><b>マリア</b>はい。</p>
+<p class="u y"><b>ユウキ</b>このリンク持ってきて、この広告使ってなってアップロードです。この動画のイメージを言語化。</p>
+<p class="u m"><b>マリア</b>はい。 食ロード！</p>
+<p class="u y"><b>ユウキ</b>してみて なんかもう。それぐらいのふわっとした感じので、これを</p>
+<p class="u m"><b>マリア</b>あー、なるほどね。</p>
+<p class="u y"><b>ユウキ</b>これ見た時に</p>
+<p class="u m"><b>マリア</b>うん。</p>
+<p class="u y"><b>ユウキ</b>これ何を連想するみたいな。これを見て何を連想するか 羅列してみたいな。なんかもうほんとそういう相談 ベースでリンク貼って</p>
+<p class="u m"><b>マリア</b>うんうん、あーなるほど。</p>
+<p class="u y"><b>ユウキ</b>これ見てどう思う？何を連想するみたいなもの。 できたもので言葉をさっき言った Dreaminaに入れるんすよ。 こっちの方にねっていくと、徐々に徐々に形ができていくと思うんです。</p>
+<p class="u m"><b>マリア</b>はい、なるほど。 地道にね。要はこの動画して</p>
+<p class="u y"><b>ユウキ</b>さあさあさあさあさあ。</p>
+<p class="u m"><b>マリア</b>この動画。このような。これみたいな動画を作りたい。白いリュウを使って、それのこの動画を作るためのプロンプトを書いて とか。そういう風に頼む。</p>
+<p class="u y"><b>ユウキ</b>うん、うんうん。 そうそう、そう。そう。そう。そう。そうそう、そんな感じ。例えば</p>
+<p class="u m"><b>マリア</b>と。</p>
+<p class="u y"><b>ユウキ</b>すごいでしょ。映像のイメージ、これどんな感じ？って今言っただけでも映像のイメージ 視点は龍の首にまたがった ノイズの一人称です。画面の下に昨日通っておりますと、龍はこういう 茶色がかって黒色のこと、こういうのが10秒数十秒 出てくるわけですよ。これ見てって。 あれ？また1回抜けちゃったかな？</p>
+<p class="u m"><b>マリア</b>zoomにするとズームインする時切れちゃう。</p>
+<p class="u y"><b>ユウキ</b>動画について。 やってることわかります。どういうことになってるんですってでそう。連想するもの、こういう作品</p>
+<p class="u m"><b>マリア</b>わかります。わかります。</p>
+<p class="u y"><b>ユウキ</b>なんかハウルっぽいな。ロードオブザリングっぽいな っていうのが出てくるからそこでそう。僕も今一緒にやりながら学んでるぐらいなんで。だからあんま変わんないんですよ。正直そこのそのね。理解度</p>
+<p class="u m"><b>マリア</b>はい、はいはい。 はい、はいはい。</p>
+<p class="u y"><b>ユウキ</b>っていうのは僕とマリアさんて。だからそこの考え方</p>
+<p class="u m"><b>マリア</b>はい、はい、はいはい。</p>
+<p class="u y"><b>ユウキ</b>柔軟性みたいなもの。多分ここちょっと今</p>
+<p class="u m"><b>マリア</b>はい、はい、はいはい。</p>
+<p class="u y"><b>ユウキ</b>入り口を教えて。 多分マリアさんも今からパッともうでき</p>
+<p class="u m"><b>マリア</b>うん。</p>
+<p class="u y"><b>ユウキ</b>走り始められるはずなんです。だから</p>
+<p class="u m"><b>マリア</b>はい。</p>
+<p class="u y"><b>ユウキ</b>さっき言ったように、多分今回のってお仕事にならないなと思ったんですよ。なんかもう 今教えられたからそうそう。そうそう。</p>
+<p class="u m"><b>マリア</b>ありがとうございます。今イメージを これ見せてもらっただけでだいぶわかります。</p>
+<p class="u y"><b>ユウキ</b>そうでしょ。どうでしょうんで、そのClaude コードっていうのも？</p>
+<p class="u m"><b>マリア</b>子供使ったことないからClaude</p>
+<p class="u y"><b>ユウキ</b>すごく面白いですよ。これ使ってますよね。確か。</p>
+<p class="u m"><b>マリア</b>でできるんだね。これがね。</p>
+<p class="u y"><b>ユウキ</b>今音入らないか？</p>
+<p class="u p"><b>ゆみパン先生</b>使ってます。Claude使ってます。</p>
+<p class="u y"><b>ユウキ</b>ねぇ、どういうことに使ってます。さんは？</p>
+<p class="u p"><b>ゆみパン先生</b>私はね分析に使ってんですよ。ホームページ</p>
+<p class="u y"><b>ユウキ</b>例えば何のはい？はい？はいはいはいはいはいすごく。</p>
+<p class="u p"><b>ゆみパン先生</b>授業の組み立てとか考えて。</p>
+<p class="u y"><b>ユウキ</b>はい、はい、はいはいはいはいはいはいはいはいはいはいはい。例えばね。例えばね、えっと</p>
+<p class="u m"><b>マリア</b>分析？</p>
+<p class="u y"><b>ユウキ</b>マリアさんの占い業界で</p>
+<p class="u m"><b>マリア</b>はい、はい、はいはいはい。</p>
+<p class="u y"><b>ユウキ</b>似たようなことをやっててすごくうまくいってる。こんな風になりたいなって思う方のサイトってあります。</p>
+<p class="u m"><b>マリア</b>はい、はい、そうですね。 はい、ありますね。はい。</p>
+<p class="u y"><b>ユウキ</b>なんてやつです。</p>
+<p class="u m"><b>マリア</b>ちょっとなんてやつってどうだろう？ハルトの男心あると 晴れる人あると思う。その人その人そうそう。</p>
+<p class="u y"><b>ユウキ</b>これか70ハルトの例えばこういう人のサイトペット入ってで これ何が人気なのか</p>
+<p class="u m"><b>マリア</b>これみたいな。</p>
+<p class="u y"><b>ユウキ</b>これみたいなのか、これを分析してって言うとうわーって出てくるんですよ。</p>
+<p class="u m"><b>マリア</b>やっぱ Chrome 賢いんだね。Claudeナイトダメなんだね。</p>
+<p class="u y"><b>ユウキ</b>すごくいいですよね。これもね。できれば有料プランでユニ パンさんも有料プランでやってます。これ？</p>
+<p class="u m"><b>マリア</b>有料プロがいくらですか？</p>
+<p class="u y"><b>ユウキ</b>ゆみパン先生は？ ですね。これね。プラン</p>
+<p class="u p"><b>ゆみパン先生</b>有料です。</p>
+<p class="u m"><b>マリア</b>有料いくら？</p>
+<p class="u y"><b>ユウキ</b>額がね。なんかもう。もうそのClaudeの営業みたいになってるけれども、赤く 比較えっとね。 いくつかあって多分さんはこれかな？プロプラン？僕は ちなみにこれなんですよ。200ドルのプラン。</p>
+<p class="u m"><b>マリア</b>すごい！</p>
+<p class="u p"><b>ゆみパン先生</b>10倍じゃん。</p>
+<p class="u y"><b>ユウキ</b>をこれ月月のね価格ね。だから</p>
+<p class="u m"><b>マリア</b>2万円ぐらいというか高い。</p>
+<p class="u y"><b>ユウキ</b>まずは3万円ぐらいですね。今のドルで考えると 今の今のドルで言うとそう 高くなっちゃう。最初は無料でいいと思うんです。結局 これ何が違うかって利用上限の違いなんですよね？ あんまり使ってるとすぐに上限達しちゃって、あの1週間待たないと次の週にならないと使えないよ。ってことが多いので、僕はそれが嫌だから 常にいろんなことをやっているから、もうあんま 気にせずにがっと使えるものを払ってるっていう。</p>
+<p class="u m"><b>マリア</b>なるほど。やっぱプロ向けね。</p>
+<p class="u y"><b>ユウキ</b>だからもうね。そう。動画どうのてもそのaiの使い方講座 みたいなことになるかもしれない。これもし何か今後 こうしたいならばなんでもしこれね。今後もこういうことを相談したいんであれば 1時間枠いくらみたいな感じでレッスン枠 ちょっと作っとくんで</p>
+<p class="u m"><b>マリア</b>はい、はい、はい、わかりました。</p>
+<p class="u y"><b>ユウキ</b>それを予約していただいて、その中で毎回今日 これやって宿題やってみたいな感じになると思うが、多分 マリアさんの場合は自分で調べて</p>
+<p class="u m"><b>マリア</b>はい。</p>
+<p class="u y"><b>ユウキ</b>勝手に走り出せるタイプの人だと今の時間で吐くなんか</p>
+<p class="u m"><b>マリア</b>はい。</p>
+<p class="u y"><b>ユウキ</b>推測したんで1回やってみたらいいと思います。はい。</p>
+<p class="u m"><b>マリア</b>あ、ありがとうございます。はい。 そうですね。1回やってできなかったらしい。どうしていただこうかな？</p>
+<p class="u y"><b>ユウキ</b>そうそう、そう、そう、そうそうかな っていう感じですね。そうそう、僕もね。そう全部 こっちはやるって事もできる。それしちゃうとね。ちゃんとお金をもらうようになっちゃうし、おそらく いろいろね。こうじゃない あじゃないって結構コミュニケーションキャッチボールも増えてきちゃうと思うんです。</p>
+<p class="u m"><b>マリア</b>うん、そうですよね。はい。</p>
+<p class="u y"><b>ユウキ</b>だったらこっちの方がいいですよね。</p>
+<p class="u m"><b>マリア</b>そうですね。はい、頑張って自分でやるしかない。Claude やっぱり入れればいいんだな。</p>
+<p class="u y"><b>ユウキ</b>いや、最高だって。この資料だけClaudeで今ね 開始10分前ぐらいに今日これから周りはちゃんと話すんだけど、まとめてくれないみたいなで出してもらってるものですからね。</p>
+<p class="u m"><b>マリア</b>すごい！ 便利だね。</p>
+<p class="u y"><b>ユウキ</b>便利ですよね。本当になんかね。イメージ 社員さんを雇うような感じですよ。あのそうチャット gptとかともちょっと違ってチャット gptっていうのは 何か質問したらそれに答えてくれるっていう？相談員さん的な役割だとしたら、あのClaudeっていうのは自分が 雇う社員。これをやっといて</p>
+<p class="u m"><b>マリア</b>うんうん。</p>
+<p class="u y"><b>ユウキ</b>言ったら、もうそのたとえ、決まった時間に6時になったらこのレポートを書くとかでそのやってったことを覚えてくれていてで、社長 前回やった。この仕事がまだ残ってますよ。だとか新しいことをしたいときに前回やった。これのアイディアが使えますね。とか、あとは社長である僕があのこの前のあれやっといてよ。とか言ったらあー。あのあのあれですね。みたいな優してくれるんですよ。</p>
+<p class="u m"><b>マリア</b>アップとかはアップとかまでやってるの？どうなの？</p>
+<p class="u y"><b>ユウキ</b>アップというアップというと。</p>
+<p class="u m"><b>マリア</b>動画のアップとかこういうのをこないだ みたいな。こんなん作ってこうなって。</p>
+<p class="u y"><b>ユウキ</b>できるできるでアップロードしといてもできます。この時間に</p>
+<p class="u m"><b>マリア</b>すごい！</p>
+<p class="u y"><b>ユウキ</b>これ作っといて、来週何時の何時に自動投稿しといて 分かりました。勝手に私の方でパソコンいじり 動き出すんですよ。今こうやって人間が動かすんじゃなくて、自動操作もしてくれるから。 っていうはい、どうぞ。</p>
+<p class="u m"><b>マリア</b>すいません。すごいね。ブロード やっぱりね。パソコン買った方がいいですかね？</p>
+<p class="u y"><b>ユウキ</b>あ、そうか。そこからかなるほどね。どっちから行って買った方がいいです。はい。</p>
+<p class="u m"><b>マリア</b>そこなんですよ。それ！</p>
+<p class="u y"><b>ユウキ</b>これね、スマホでできることはかなり限られてきますね。 これだってユニバース先生も パソコンで作業されてますよね？</p>
+<p class="u p"><b>ゆみパン先生</b>詳しく考えられない。</p>
+<p class="u y"><b>ユウキ</b>これ、スマホでやるとあのね パソコンがあって、そのサブでスマホを使って出先で操作するとかわかるんですけど、家で作業するのをスマホって言うとね。なかなか難しいですね。</p>
+<p class="u p"><b>ゆみパン先生</b>いや、もうパソコン どれ買うところから相談した方がいいんじゃない？</p>
+<p class="u y"><b>ユウキ</b>あー、もうそこから都内にいらっしゃるんであれば。僕 普段、秋葉原とかのツアーとか そこのね。秋映して安いパソコン屋さん行って ノートパソコン買いに行ってみたいなところからできるんじゃないから。</p>
+<p class="u p"><b>ゆみパン先生</b>それがいい？</p>
+<p class="u m"><b>マリア</b>なんですけど Windowsですか？</p>
+<p class="u y"><b>ユウキ</b>僕はMacですけど、Windowsでも全然大丈夫ですよ。Macのが正直</p>
+<p class="u m"><b>マリア</b>バッグですか？iPhone ユーザーそうだよね。高いよね。</p>
+<p class="u y"><b>ユウキ</b>高くつく10万20万見る必要がある。Macで買うと。でも Windows系だと普通にね。45万ぐらいでも全然買えますね。ノートパソコン。</p>
+<p class="u m"><b>マリア</b>やっぱアップルがいいよなぁ。</p>
+<p class="u y"><b>ユウキ</b>そこはまあ</p>
+<p class="u m"><b>マリア</b>どうかな？</p>
+<p class="u y"><b>ユウキ</b>ガッと出せるんであれば、それもね。そのMacなら何でもいいじゃなくてね。そうだな ね。だいたい型落ちでも今から5年落ち ぐらいまでですね。許容範囲としてはあんまり古いと今の最新モデルのaiがかなり使いにくくなってくるので。</p>
+<p class="u m"><b>マリア</b>ですよね。 高いんだよ。スマホも古いのに。</p>
+<p class="u y"><b>ユウキ</b>長いんだよね？ あ、そう、もうそこ全体的にですね。なんかね事業化 補助金 みたいな。なんかそういうものも使えるものあるかもしれないですね。</p>
+<p class="u m"><b>マリア</b>え、そうなんですか？知らなかっ。</p>
+<p class="u y"><b>ユウキ</b>うん、あると思う。it化とかその何何か みたいなものはね。そのそういうの？すらも僕はいつもaiで聞いて、今のマリアさんが使える補助金ないみたいな。あまり もう少しそのね。プロフィール聞いた上でそうすると</p>
+<p class="u m"><b>マリア</b>すごい！</p>
+<p class="u y"><b>ユウキ</b>これがってこれがあって、申し込みはコンピューター こうでできるところまで私も一緒に 伴走して作るんで、文章の文はこれを考えて、これコピー すればいいですよ。っていうところまで考えてくれたりする？</p>
+<p class="u m"><b>マリア</b>なるほど。じゃあやっぱりまず Claudeを入れていろんなことをやってみてお金を稼いだんですか？</p>
+<p class="u y"><b>ユウキ</b>そうですね。そうですね。で、自分がいつもやっている作業を事務作業とか、メール</p>
+<p class="u m"><b>マリア</b>今占いが。</p>
+<p class="u y"><b>ユウキ</b>作業を返信作業みたいなものをaiにやらせて で、空いた時間で他の仕事をやるっていうのが。</p>
+<p class="u m"><b>マリア</b>なるほど。なるほど。</p>
+<p class="u y"><b>ユウキ</b>先生的にはここまで聞いてどうですか？何を何をすべきですかね？パソコンですかね？やっぱまずは？</p>
+<p class="u p"><b>ゆみパン先生</b>まずパソコン買うとこからじゃないですかね？</p>
+<p class="u m"><b>マリア</b>パソコンか？</p>
+<p class="u p"><b>ゆみパン先生</b>それがないとクラウド入れるできない。</p>
+<p class="u y"><b>ユウキ</b>うん、そうなんですよ。家のパソコンはないんですか？デスクトップのパソコン</p>
+<p class="u p"><b>ゆみパン先生</b>パソコン。</p>
+<p class="u y"><b>ユウキ</b>ノートじゃなくて？</p>
+<p class="u m"><b>マリア</b>じゃないんですよ。古い Windowsしかない？古い Windows と古いmacしかなくて古いのあるんですけどちょっとね。</p>
+<p class="u y"><b>ユウキ</b>古いのでもできなくはない。できなくはないが、かなり重くなるっていう。</p>
+<p class="u m"><b>マリア</b>いやー、もう画像がもうちょっと画像が15年くらい前のなんて。だからまあ</p>
+<p class="u p"><b>ゆみパン先生</b>すごい。それ！ は。</p>
+<p class="u m"><b>マリア</b>買うしかないのね。あーでもね。</p>
+<p class="u y"><b>ユウキ</b>ジムニーどうします？今後としてね。今日僕の今まで見ましたら、もう早速使ってくださいよ。と思ったけど、多分そこからになりますよね。</p>
+<p class="u m"><b>マリア</b>そこからってかパソコンね。 いくら？iPhoneを買い換えるべきか？パソコンを先に買うべきか悩んじゃうよね？</p>
+<p class="u y"><b>ユウキ</b>スマホは今どいつ頃買った？どんなのを使ってるんですか？</p>
+<p class="u m"><b>マリア</b>iPhone 13 miniです。</p>
+<p class="u y"><b>ユウキ</b>なんとかなるパースマホは正直どっちかと パソコンの方が先だと思います。</p>
+<p class="u m"><b>マリア</b>やっぱそうかどんどんこれからね。動画 増やしていかなきゃいけないし、ストック増やしていかなきゃいけないんだったらパソコンです。</p>
+<p class="u y"><b>ユウキ</b>そうですね。今の話を聞いてこれまた すごいんですけど、今こうやって会議してるじゃないですか？会議してる内容を今その裏側でそのクローズに文字起こし をさせていてで、文字起こしされたものを</p>
+<p class="u m"><b>マリア</b>素晴らしい！動いてる動いてる？</p>
+<p class="u y"><b>ユウキ</b>議事録にしてで、今悩みであったりとかをその それをまとめてこういうパソコンが欲しがってます。それに条件には 合致したものを探しといてって、今 僕これ言ったじゃないですか？で、それもその社員がもう</p>
+<p class="u m"><b>マリア</b>はい。</p>
+<p class="u y"><b>ユウキ</b>キャッチしてで今まとめてくれてるで後で出てきたものを</p>
+<p class="u m"><b>マリア</b>すごい！</p>
+<p class="u y"><b>ユウキ</b>マリアさんにシェアするんです。それ見ながら予算いくら だいたい4万5万10万くらい払える。どんなタイプがある</p>
+<p class="u m"><b>マリア</b>うん、うんうん。</p>
+<p class="u y"><b>ユウキ</b>でこういうのが どこで買えます。というところまでをまとめた情報を後で送るね。それ見ながら参考にしてみてください。</p>
+<p class="u m"><b>マリア</b>すごいかしこ。やっぱり必要だな。今の時代</p>
+<p class="u y"><b>ユウキ</b>僕、なんかそういくらでも稼げるし、あとはこの会議</p>
+<p class="u m"><b>マリア</b>いくらでも稼ぎますよね。</p>
+<p class="u y"><b>ユウキ</b>だけじゃなくてオンラインでも人と会う時にこれ。この前 イベントで使ったんですけど、ボイスレコーダーにあのポッチポチっとつけてで、その会話 ずっとしてる時の 全部取っといてでその時の重要だった話とか、マリアさんと占いの時の会話の情報、何やったっていうのを もちろん リアルタイムに対応できるけども、終わった後に今日これ言ってたな。これについて、私はこういう 占いができるなっていうのを後から色々考えてくれるから、それも セットにして、お客さんにサービスをして出せたら めちゃめちゃ良くないですか？</p>
+<p class="u m"><b>マリア</b>そうですね。</p>
+<p class="u y"><b>ユウキ</b>そうていうのもね。やりようはいくらでもある。本当に。</p>
+<p class="u m"><b>マリア</b>確かに。 便利ですね。秘書みたいなもんだね。</p>
+<p class="u y"><b>ユウキ</b>いや、秘書そう。まさに秘書 じゃあ今日もね。ここで一旦切りますけれども、まとめて何するべきはまずはパソコン 買うべき、その後こうするべきみたいなものが</p>
+<p class="u m"><b>マリア</b>はい、はい、はいはい。</p>
+<p class="u y"><b>ユウキ</b>グってシェアするんで</p>
+<p class="u m"><b>マリア</b>はい、はいはい。ありがとう。</p>
+<p class="u y"><b>ユウキ</b>で、それ以上何か僕の方に何か必要ってなったら、例えば パソコン書に買いに行こう。お手伝いの仕事だったりとか、あとはそのオンラインのレッスンだったりとかでいくらでやります。よってのまとめとくんで。</p>
+<p class="u m"><b>マリア</b>ございます。はいはい。 はい、ぜひお願いします。また</p>
+<p class="u y"><b>ユウキ</b>こんな感じですかね？ゆみパン先生からは</p>
+<p class="u m"><b>マリア</b>はいはい。ありがとうございます。</p>
+<p class="u y"><b>ユウキ</b>何かありますか？天の声。</p>
+<p class="u p"><b>ゆみパン先生</b>ですのでそれでいきましょう。</p>
+<p class="u m"><b>マリア</b>アキバキバの秋葉ってMacも安いんですか？</p>
+<p class="u y"><b>ユウキ</b>いや、あのね。結構、中古のパソコン屋さんあって、普通に定価で買うより、めちゃめちゃ安く買える店は結構多い 結構多いですよ。そうですか。その辺です。都内のどのあたりです。</p>
+<p class="u m"><b>マリア</b>置き場に行きたい。 港区です。</p>
+<p class="u y"><b>ユウキ</b>聞いた瞬間にもうたくさんお金もらえますね。って思ったから</p>
+<p class="u m"><b>マリア</b>もらってない？もらってない？もらってないから全然貰ってない</p>
+<p class="u y"><b>ユウキ</b>みんなどこなんでしょうか？sセレネーズ。</p>
+<p class="u m"><b>マリア</b>貧乏です。貧乏です。貧乏です。</p>
+<p class="u y"><b>ユウキ</b>じゃあなんかあればグループで。</p>
+<p class="u m"><b>マリア</b>はい、ありがとうございます。じゃあまずは はい。ありがとうございます。また、じゃあ 教えていただく時にお願いします。ご紹介いただいてありがとうございました。夢パンさん。</p>
+<p class="u y"><b>ユウキ</b>了解しました。</p>
+<p class="u p"><b>ゆみパン先生</b>最高でしょ？</p>
+<p class="u m"><b>マリア</b>感謝します。</p>
+<p class="u y"><b>ユウキ</b>なんか他にも周りもこういうのテルプ 必要そうな人がいたらご紹介ください。</p>
+<p class="u m"><b>マリア</b>はい、わかりました。ありがとうございます。</p>
+<p class="u y"><b>ユウキ</b>お願いします。失礼します。</p>
+<p class="u p"><b>ゆみパン先生</b>はい、ありがとうございます。</p>
+<p class="u m"><b>マリア</b>ありがとうございました。</p>
+<p class="u y"><b>ユウキ</b>どうも午後も頑張ってください。</p>
+<p class="u m"><b>マリア</b>ありがとうございます。メッセージ</p>
+</details>
+<footer><p>作成: 書記（文月ヨリ）／ 2026年10月21日 ／ 価格と在庫は出典記事の掲載日時点で、変わることがあります。</p></footer>
+</main></body></html>
